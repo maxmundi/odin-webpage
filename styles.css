@@ -4,14 +4,14 @@ body {
 
 * {
     color: #f9faf8;
-    font-family: "Roboto", "Times New Roman", Verdana;
+    font-family: "Arial Narrow", "Times New Roman", Verdana;
 }
 
 /* Header Style */
 .header {
     background-color: #1F2937;
     display: flex;
-    padding: 10px;
+    padding: 0px 70px;
     align-items: center;
     height: 40px;
 }
@@ -19,7 +19,6 @@ body {
 .header h3 {
     font-size: 24px;
     flex: 1;
-    padding: 70px;
 }
 
 .header ul {
@@ -28,7 +27,6 @@ body {
     gap: 30px;
     font-size: 18px;
     color: #e5e7eb;
-    padding: 70px;
 }
 
 .header ul li {
@@ -90,6 +88,7 @@ body {
     flex-wrap: wrap;
     gap: 40px;
     justify-content: space-between;
+    justify-content: center;
 }
 
 .section-two div {
