@@ -1,0 +1,163 @@
+body {
+    margin: 0px;
+}
+
+* {
+    color: #f9faf8;
+    font-family: "Roboto", "Times New Roman", Verdana;
+}
+
+/* Header Style */
+.header {
+    background-color: #1F2937;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    height: 40px;
+}
+
+.header h3 {
+    font-size: 24px;
+    flex: 1;
+    padding: 70px;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding: 70px;
+}
+
+.header ul li {
+    flex: 1 1 auto;
+}
+
+/* Section One Style */
+.section-one {
+    background-color: #1F2937;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    gap: 140px;
+    padding: 70px;
+}
+
+.section-one div {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.section-one p {
+    font-size: 18px;
+}
+
+.section-one img {
+    height: 300px;
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 0px;
+}
+
+/* Section 2 Style */
+.section-two {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 70px;
+}
+
+.section-two h2 {
+    color: #1F2937;
+}
+
+.section-two ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+.section-two div {
+    display: flex;
+    flex-direction: column;
+    color: #1F2937;
+    width: 150px;
+    align-items: center;
+}
+
+.section-two img {
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+.section-two p {
+    color: #1F2937;
+}
+
+/* Section 2 Style */
+.section-three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 70px;
+}
+
+.quotation {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    align-items: center;
+}
+
+.attribution {
+    color: #1F2937;
+    font-weight: bolder;
+    margin-left: auto;
+}
+
+/* Section 2 Style */
+.section-four {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+
+.blue-box {
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 60px;
+    padding: 15px 30px;
+    justify-content: space-around;
+}
+
+/* Footer */
+
+.footer {
+    background-color: #1F2937;
+    font-size: 14px;
+    height: 60px;
+    text-align: center;
+    padding: 30px;
+}
